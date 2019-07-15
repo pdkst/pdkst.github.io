@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html lang="ch-ZH">
-	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <title>pdkst's HomePage</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="normalize.css" media="screen">
-    <link href="css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>pdkst's HomePage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="normalize.css" media="screen">
+  <link href="css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="github-light.css" media="screen">
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100% !important;
+    }
+
+    .page-header {
+      height: 80%;
+      width: 100%;
+    }
+
+    .page-footer {
+      height: 20%;
+      width: 100%;
+      padding: 5rem 6rem;
+      text-align: center;
+      background-color: #159957;
+      background-image: linear-gradient(120deg, #159957, #155799);
+    }
+
+    .split {
+      float: top;
+      height: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="page-header">
+    <div class="split">
       <h1 class="project-name"><img src="favicon.ico"> &nbsp;pdkst</h1>
       <h2 class="project-tagline">自由的 Java / Android 开发者</h2>
       <a href="https://github.com/pdkst/" class="btn">My GitHub</a>
-	  <a href="blog.html" class="btn">BLOG TEST</a> 
+      <a href="blog.html" class="btn">BLOG TEST</a>
       <a href="tencent://message/?uin=923130673&Site=&menu=yes" class="btn">QQ chat</a>
       <a href="mailto:pdk_studio@foxmail.com" class="btn">Mail for help</a>
-    </section>
-     <section class="page-header">
+    </div>
+  </section>
+  <section class="page-footer">
+    <div class="split" style="clear: both">
       <a href="https://github.com/pdkst/" class="btn">My GitHub</a>
-	  <a href="blog.html" class="btn">BLOG TEST</a> 
+      <a href="blog.html" class="btn">BLOG TEST</a>
       <a href="tencent://message/?uin=923130673&Site=&menu=yes" class="btn">QQ chat</a>
       <a href="mailto:pdk_studio@foxmail.com" class="btn">Mail for help</a>
-    </section>
-</body></html>
+    </div>
+  </section>
+</body>
+
+</html>
