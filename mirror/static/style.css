@@ -194,7 +194,7 @@ strong {
 
 /*BEGIN Xbox 360 Controller Styling*/
 .controller.xbox-old {
-    background: url(xbox-assets-old/bg.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/bg.png);
     height: 544px;
     width: 668px;
     /*    margin-left: -332px;
@@ -202,7 +202,7 @@ strong {
 }
 
 .xbox-old.disconnected {
-    background: url(xbox-assets-old/bg-disconnect.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/bg-disconnect.png);
 }
 
 .xbox-old.disconnected div {
@@ -219,7 +219,7 @@ strong {
 .xbox-old .trigger {
     width: 33px;
     height: 76px;
-    background: url(xbox-assets-old/trigger.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/trigger.png);
     opacity: 0;
 }
 
@@ -236,7 +236,7 @@ strong {
 .xbox-old .bumper {
     width: 119px;
     height: 44px;
-    background: url(xbox-assets-old/bumper.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/bumper.png);
     opacity: 0;
 }
 
@@ -264,7 +264,7 @@ strong {
 
 .xbox-old .quadrant {
     position: absolute;
-    background: url(xbox-assets-old/quadrant.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/quadrant.png);
     height: 100px;
     width: 100px;
     top: 165px;
@@ -301,7 +301,7 @@ strong {
 }
 
 .xbox-old .back, .xbox-old .start {
-    background: url(xbox-assets-old/arrow.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/arrow.png);
     width: 34px;
     height: 29px;
 }
@@ -359,24 +359,24 @@ strong {
 }
 
 .xbox-old .a {
-    background: url(xbox-assets-old/a.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/a.png);
     top: 108px;
     left: 55px;
 }
 
 .xbox-old .b {
-    background: url(xbox-assets-old/b.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/b.png);
     top: 54px;
     right: 0px;
 }
 
 .xbox-old .x {
-    background: url(xbox-assets-old/x.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/x.png);
     top: 54px;
 }
 
 .xbox-old .y {
-    background: url(xbox-assets-old/y.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/y.png);
     left: 54px;
 }
 
@@ -390,7 +390,7 @@ strong {
 
 .xbox-old .stick {
     position: absolute;
-    background: url(xbox-assets-old/stick.png);
+    background: url(http://gamepadviewer.com/xbox-assets-old/stick.png);
     height: 86px;
     width: 86px;
 }
@@ -474,7 +474,7 @@ strong {
 
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(xbox-assets/base.svgz);
+    background: url(http://gamepadviewer.com/xbox-assets/base.svgz);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -482,11 +482,11 @@ strong {
 }
 
 .xbox.white {
-    background: url(xbox-assets/base-white.svgz);
+    background: url(http://gamepadviewer.com/xbox-assets/base-white.svgz);
 }
 
 .xbox.disconnected {
-    background: url(xbox-assets/disconnected.svgz);
+    background: url(http://gamepadviewer.com/xbox-assets/disconnected.svgz);
 }
 
 .xbox.disconnected div {
@@ -503,7 +503,7 @@ strong {
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(xbox-assets/trigger.svgz);
+    background: url(http://gamepadviewer.com/xbox-assets/trigger.svgz);
     opacity: 0;
 }
 
@@ -520,7 +520,7 @@ strong {
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(xbox-assets/bumper.svgz);
+    background: url(http://gamepadviewer.com/xbox-assets/bumper.svgz);
     opacity: 0;
 }
 
@@ -548,7 +548,7 @@ strong {
 
 .xbox .quadrant {
     position: absolute;
-    background: url(xbox-assets/quadrant.svgz);
+    background: url(http://gamepadviewer.com/xbox-assets/quadrant.svgz);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -585,7 +585,7 @@ strong {
 }
 
 .xbox .back, .xbox .start {
-    background: url(xbox-assets/start-select.svgz);
+    background: url(http://gamepadviewer.com/xbox-assets/start-select.svgz);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -614,7 +614,7 @@ strong {
 
 .xbox .button {
     position: absolute;
-    background: url(xbox-assets/abxy.svgz);
+    background: url(http://gamepadviewer.com/xbox-assets/abxy.svgz);
     width: 48px;
     height: 48px;
 }
@@ -659,7 +659,7 @@ strong {
 
 .xbox .stick {
     position: absolute;
-    background: url(xbox-assets/stick.svgz);
+    background: url(http://gamepadviewer.com/xbox-assets/stick.svgz);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -688,7 +688,7 @@ strong {
 }
 
 .xbox .face {
-    background: url(xbox-assets/dpad.svgz);
+    background: url(http://gamepadviewer.com/xbox-assets/dpad.svgz);
     position: absolute;
     opacity: 0;
 }
@@ -740,7 +740,7 @@ strong {
 
 /*BEGIN PS3 Controller Styling*/
 .controller.ps {
-    background: url(ps3-assets/base.png);
+    background: url(http://gamepadviewer.com/ps3-assets/base.png);
     height: 558px;
     width: 784px;
     /*    margin-left: -392px;
@@ -748,7 +748,7 @@ strong {
 }
 
 .ps.disconnected {
-    background: url(ps3-assets/base-disconnect.png);
+    background: url(http://gamepadviewer.com/ps3-assets/base-disconnect.png);
 }
 
 .ps.disconnected div {
@@ -765,7 +765,7 @@ strong {
 .ps .trigger {
     width: 86px;
     height: 65px;
-    background: url(ps3-assets/triggers.png);
+    background: url(http://gamepadviewer.com/ps3-assets/triggers.png);
     opacity: 0;
 }
 
@@ -780,7 +780,7 @@ strong {
 .ps .bumper {
     width: 89px;
     height: 28px;
-    background: url(ps3-assets/bumpers.png);
+    background: url(http://gamepadviewer.com/ps3-assets/bumpers.png);
     opacity: 0;
 }
 
@@ -808,7 +808,7 @@ strong {
 
 .ps .quadrant {
     position: absolute;
-    background: url(ps3-assets/player-n.png);
+    background: url(http://gamepadviewer.com/ps3-assets/player-n.png);
     height: 17px;
     width: 111px;
     top: 140px;
@@ -840,7 +840,7 @@ strong {
 }
 
 .ps .back, .ps .start {
-    background: url(ps3-assets/menus.png);
+    background: url(http://gamepadviewer.com/ps3-assets/menus.png);
     width: 34px;
     height: 19px;
 }
@@ -873,7 +873,7 @@ strong {
     position: absolute;
     width: 62px;
     height: 62px;
-    background: url(ps3-assets/face-buttons.png);
+    background: url(http://gamepadviewer.com/ps3-assets/face-buttons.png);
 }
 
 .ps .button.pressed {
@@ -913,7 +913,7 @@ strong {
 
 .ps .stick {
     position: absolute;
-    background: url(ps3-assets/thumbs.png);
+    background: url(http://gamepadviewer.com/ps3-assets/thumbs.png);
     height: 105px;
     width: 105px;
 }
@@ -945,7 +945,7 @@ strong {
 }
 
 .ps .face {
-    background: url(ps3-assets/dpad.png);
+    background: url(http://gamepadviewer.com/ps3-assets/dpad.png);
     position: absolute;
 }
 
@@ -996,48 +996,48 @@ strong {
 
 /*BEGIN PS3 White Controller Styling*/
 .controller.ps.white {
-    background-image: url(ps3-white-assets/base.png);
+    background-image: url(ps3-http://gamepadviewer.com/white-assets/base.png);
 }
 
 .ps.white.disconnected {
-    background-image: url(ps3-white-assets/base-disconnect.png);
+    background-image: url(ps3-http://gamepadviewer.com/white-assets/base-disconnect.png);
 }
 
 
 .ps.white .trigger {
-    background-image: url(ps3-white-assets/triggers.png);
+    background-image: url(ps3-http://gamepadviewer.com/white-assets/triggers.png);
 }
 
 
 .ps.white .bumper {
-    background-image: url(ps3-white-assets/bumpers.png);
+    background-image: url(ps3-http://gamepadviewer.com/white-assets/bumpers.png);
 }
 
 .ps.white .quadrant {
-    background-image: url(ps3-white-assets/player-n.png);
+    background-image: url(ps3-http://gamepadviewer.com/white-assets/player-n.png);
 }
 
 .ps.white .back, .ps.white .start {
-    background-image: url(ps3-white-assets/menus.png);
+    background-image: url(ps3-http://gamepadviewer.com/white-assets/menus.png);
 }
 
 .ps.white .button {
-    background-image: url(ps3-white-assets/face-buttons.png);
+    background-image: url(ps3-http://gamepadviewer.com/white-assets/face-buttons.png);
 }
 
 .ps.white .stick {
-    background-image: url(ps3-white-assets/thumbs.png);
+    background-image: url(ps3-http://gamepadviewer.com/white-assets/thumbs.png);
 }
 
 .ps.white .face {
-    background-image: url(ps3-white-assets/dpad.png);
+    background-image: url(ps3-http://gamepadviewer.com/white-assets/dpad.png);
 }
 
 /*END PS3 White Controller Styling*/
 
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(ps4-assets/base.svgz);
+    background: url(http://gamepadviewer.com/ps4-assets/base.svgz);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
@@ -1045,7 +1045,7 @@ strong {
 }
 
 .ds4.disconnected {
-    background: url(ps4-assets/disconnected.svgz);
+    background: url(http://gamepadviewer.com/ps4-assets/disconnected.svgz);
 }
 
 .ds4.disconnected div {
@@ -1062,7 +1062,7 @@ strong {
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(ps4-assets/triggers.svgz);
+    background: url(http://gamepadviewer.com/ps4-assets/triggers.svgz);
     opacity: 0;
 }
 
@@ -1078,7 +1078,7 @@ strong {
 .ds4 .bumper {
     width: 99px;
     height: 23px;
-    background: url(ps4-assets/bumper.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/ps4-assets/bumper.svgz) no-repeat;
     opacity: 0;
 }
 
@@ -1114,7 +1114,7 @@ strong {
 }
 
 .ds4 .touchpad.pressed {
-    background: url(ps4-assets/touchpad.svgz) no-repeat center;
+    background: url(http://gamepadviewer.com/ps4-assets/touchpad.svgz) no-repeat center;
 }
 
 .ds4 .meta {
@@ -1126,13 +1126,13 @@ strong {
 }
 
 .ds4 .meta.pressed {
-    background: url(ps4-assets/meta.svgz) no-repeat center;
+    background: url(http://gamepadviewer.com/ps4-assets/meta.svgz) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
 /*.ds4 .quadrant{
 position: absolute;
-background: url(ps4-assets/player-n.svgz);
+background: url(http://gamepadviewer.com/ps4-assets/player-n.svgz);
 height: 17px;
 width: 111px;
 top: 140px;
@@ -1159,7 +1159,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(ps4-assets/start.svgz);
+    background: url(http://gamepadviewer.com/ps4-assets/start.svgz);
     width: 28px;
     height: 46px;
     opacity: 0;
@@ -1194,7 +1194,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(ps4-assets/face.svgz);
+    background: url(http://gamepadviewer.com/ps4-assets/face.svgz);
 }
 
 .ds4 .button.pressed {
@@ -1234,7 +1234,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(ps4-assets/sticks.svgz);
+    background: url(http://gamepadviewer.com/ps4-assets/sticks.svgz);
     height: 94px;
     width: 94px;
 }
@@ -1266,7 +1266,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(ps4-assets/dpad.svgz);
+    background: url(http://gamepadviewer.com/ps4-assets/dpad.svgz);
     position: absolute;
 }
 
@@ -1317,46 +1317,46 @@ background-position: 0 -70px;
 
 /*BEGIN PS4 White Controller Styling*/
 .controller.ds4.white {
-    background-image: url(ps4-white-assets/base.svgz);
+    background-image: url(ps4-http://gamepadviewer.com/white-assets/base.svgz);
 }
 
 .ds4.white.disconnected {
-    background: url(ps4-assets/disconnected.svgz);
+    background: url(http://gamepadviewer.com/ps4-assets/disconnected.svgz);
 }
 
 .ds4.white .trigger {
-    background-image: url(ps4-white-assets/triggers.svgz);
+    background-image: url(ps4-http://gamepadviewer.com/white-assets/triggers.svgz);
 }
 
 .ds4.white .bumper {
-    background-image: url(ps4-white-assets/bumper.svgz);
+    background-image: url(ps4-http://gamepadviewer.com/white-assets/bumper.svgz);
 }
 
 .ds4.white .touchpad.pressed {
-    background-image: url(ps4-white-assets/touchpad.svgz);
+    background-image: url(ps4-http://gamepadviewer.com/white-assets/touchpad.svgz);
 }
 
 .ds4.white .back, .ds4 .start {
-    background-image: url(ps4-white-assets/start.svgz);
+    background-image: url(ps4-http://gamepadviewer.com/white-assets/start.svgz);
 }
 
 .ds4.white .button {
-    background-image: url(ps4-white-assets/face.svgz);
+    background-image: url(ps4-http://gamepadviewer.com/white-assets/face.svgz);
 }
 
 .ds4.white .stick {
-    background-image: url(ps4-white-assets/sticks.svgz);
+    background-image: url(ps4-http://gamepadviewer.com/white-assets/sticks.svgz);
 }
 
 .ds4.white .face {
-    background-image: url(ps4-white-assets/dpad.svgz);
+    background-image: url(ps4-http://gamepadviewer.com/white-assets/dpad.svgz);
 }
 
 /*END PS4 White Controller Styling*/
 
 /*BEGIN NES Controller Styling*/
 .controller.nes {
-    background: url(nes-assets/base.png);
+    background: url(http://gamepadviewer.com/nes-assets/base.png);
     width: 832px;
     height: 391px;
     /*    margin-left: -416px;
@@ -1364,7 +1364,7 @@ background-position: 0 -70px;
 }
 
 .nes.disconnected {
-    background: url(nes-assets/base-disconnect.png);
+    background: url(http://gamepadviewer.com/nes-assets/base-disconnect.png);
 }
 
 .nes.disconnected div {
@@ -1408,7 +1408,7 @@ background-position: 0 -70px;
 }
 
 .nes .back, .nes .start {
-    background: url(nes-assets/menu.png);
+    background: url(http://gamepadviewer.com/nes-assets/menu.png);
     width: 73px;
     height: 20px;
 }
@@ -1438,7 +1438,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 74px;
     height: 74px;
-    background: url(nes-assets/buttons.png);
+    background: url(http://gamepadviewer.com/nes-assets/buttons.png);
     top: 0;
 }
 
@@ -1468,7 +1468,7 @@ background-position: 0 -70px;
 }
 
 .nes .face {
-    background: url(nes-assets/dpad.png);
+    background: url(http://gamepadviewer.com/nes-assets/dpad.png);
     position: absolute;
     width: 38px;
     height: 38px;
@@ -1514,13 +1514,13 @@ background-position: 0 -70px;
 
 /*BEGIN FightPad Pro Controller Styling*/
 .controller.fpp {
-    background: url(fpp-assets/base.svgz) center;
+    background: url(http://gamepadviewer.com/fpp-assets/base.svgz) center;
     height: 755px;
     width: 938px;
 }
 
 .fpp.disconnected {
-    background: url(fpp-assets/base-disconnect.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/fpp-assets/base-disconnect.svgz) no-repeat;
 }
 
 .fpp.disconnected div {
@@ -1537,7 +1537,7 @@ background-position: 0 -70px;
 .fpp .trigger {
     width: 96px;
     height: 104px;
-    background: url(fpp-assets/triggers.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/fpp-assets/triggers.svgz) no-repeat;
     opacity: 0;
 }
 
@@ -1561,7 +1561,7 @@ background-position: 0 -70px;
 .fpp .bumper {
     width: 221px;
     height: 75px;
-    background: url(fpp-assets/bumpers.svgz);
+    background: url(http://gamepadviewer.com/fpp-assets/bumpers.svgz);
     opacity: 0;
 }
 
@@ -1581,7 +1581,7 @@ background-position: 0 -70px;
 .fpp .bumper.right:after {
     content: "";
     position: absolute;
-    background: url(fpp-assets/buttons.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/fpp-assets/buttons.svgz) no-repeat;
     background-position: -280px 0px;
     width: 70px;
     height: 70px;
@@ -1591,7 +1591,7 @@ background-position: 0 -70px;
 
 .fpp .quadrant {
     position: absolute;
-    background: url(fpp-assets/quadrant.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/fpp-assets/quadrant.svgz) no-repeat;
     height: 46px;
     width: 152px;
     top: 365px;
@@ -1627,12 +1627,12 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 22px;
-    background: url(fpp-assets/slider.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/fpp-assets/slider.svgz) no-repeat;
     left: -126px;
 }
 
 .fpp .back.pressed, .fpp .start.pressed {
-    background: url(fpp-assets/options.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/fpp-assets/options.svgz) no-repeat;
     width: 81px;
     height: 43px;
 }
@@ -1662,7 +1662,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 70px;
     height: 70px;
-    background: url(fpp-assets/buttons.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/fpp-assets/buttons.svgz) no-repeat;
     background-position: -351px 0;
     right: -66px;
     top: 304px;
@@ -1672,7 +1672,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 70px;
     height: 70px;
-    background: url(fpp-assets/buttons.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/fpp-assets/buttons.svgz) no-repeat;
     opacity: 0;
 }
 
@@ -1713,7 +1713,7 @@ background-position: 0 -70px;
 
 .fpp .stick {
     position: absolute;
-    background: url(fpp-assets/sticks.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/fpp-assets/sticks.svgz) no-repeat;
     height: 114px;
     width: 114px;
 }
@@ -1746,7 +1746,7 @@ background-position: 0 -70px;
 }
 
 .fpp .face {
-    background: url(fpp-assets/dpad.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/fpp-assets/dpad.svgz) no-repeat;
     position: absolute;
     opacity: 0;
 }
@@ -1792,13 +1792,13 @@ background-position: 0 -70px;
 /*END FightPad Pro Controller Styling*/
 /*BEGIN Fight Stick Controller Styling*/
 .controller.fight-stick {
-    background: url(stick-assets/base.svgz) center no-repeat;
+    background: url(http://gamepadviewer.com/stick-assets/base.svgz) center no-repeat;
     height: 534px;
     width: 1122px;
 }
 
 .fight-stick.disconnected {
-    background: url(stick-assets/disconnected.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/stick-assets/disconnected.svgz) no-repeat;
 }
 
 .fight-stick.disconnected div {
@@ -1977,7 +1977,7 @@ background-position: 0 -70px;
     height: 221px;
     top: 199px;
     left: 192px;
-    background: url(stick-assets/stick.svgz)
+    background: url(http://gamepadviewer.com/stick-assets/stick.svgz)
 }
 
 .fight-stick .fstick.up {
@@ -2016,13 +2016,13 @@ background-position: 0 -70px;
 
 /*BEGIN GameCube Controller Styling*/
 .controller.gc {
-    background: url(gc-assets/base.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/gc-assets/base.svgz) no-repeat;
     height: 837px;
     width: 978px;
 }
 
 .gc.disconnected {
-    background: url(gc-assets/disconnected.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/gc-assets/disconnected.svgz) no-repeat;
 }
 
 .gc.disconnected div {
@@ -2039,7 +2039,7 @@ background-position: 0 -70px;
 .gc .trigger {
     width: 131px;
     height: 100%;
-    background: url(gc-assets/trigger.svgz);
+    background: url(http://gamepadviewer.com/gc-assets/trigger.svgz);
     opacity: 0;
 }
 
@@ -2054,7 +2054,7 @@ background-position: 0 -70px;
 .gc .bumper {
     width: 158px;
     height: 100%;
-    background: url(gc-assets/buttons.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/gc-assets/buttons.svgz) no-repeat;
     background-position: -358px 0px;
     opacity: 0;
 }
@@ -2085,7 +2085,7 @@ background-position: 0 -70px;
 /*Not needed, but I like keeping them here for posterity*/
 /*.gc .quadrant{
 position: absolute;
-background: url(gc-assets/player-n.svgz);
+background: url(http://gamepadviewer.com/gc-assets/player-n.svgz);
 height: 17px;
 width: 111px;
 top: 140px;
@@ -2146,7 +2146,7 @@ background-position: 0 -70px;
 
 .gc .button {
     position: absolute;
-    background: url(gc-assets/buttons.svgz);
+    background: url(http://gamepadviewer.com/gc-assets/buttons.svgz);
     opacity: 0;
 }
 
@@ -2201,7 +2201,7 @@ background-position: 0 -70px;
 .gc .stick.left {
     top: 24px;
     left: 23px;
-    background: url(gc-assets/left-stick.svgz) center no-repeat;
+    background: url(http://gamepadviewer.com/gc-assets/left-stick.svgz) center no-repeat;
     height: 121px;
     width: 121px;
 }
@@ -2209,7 +2209,7 @@ background-position: 0 -70px;
 .gc .stick.right {
     top: calc(100% - 127px);
     left: calc(100% - 125px);
-    background: url(gc-assets/cstick.svgz) center no-repeat;
+    background: url(http://gamepadviewer.com/gc-assets/cstick.svgz) center no-repeat;
     width: 84px;
     height: 84px;
 }
@@ -2231,7 +2231,7 @@ background-position: 0 -70px;
 }
 
 .gc .face {
-    background: url(gc-assets/dpad.svgz) no-repeat;
+    background: url(http://gamepadviewer.com/gc-assets/dpad.svgz) no-repeat;
     position: absolute;
     opacity: 0;
 }
@@ -2278,7 +2278,7 @@ background-position: 0 -70px;
 
 /*Start N64 Styling*/
 .controller.n64 {
-    background: url(n64-assets/base.svgz);
+    background: url(http://gamepadviewer.com/n64-assets/base.svgz);
     height: 851px;
     width: 810px;
 }
@@ -2292,7 +2292,7 @@ background-position: 0 -70px;
 }
 
 .n64 .bumper{
-    background: url(n64-assets/buttons.svgz);
+    background: url(http://gamepadviewer.com/n64-assets/buttons.svgz);
     height: 68px;
     width: 174px;
     display: block;
@@ -2312,7 +2312,7 @@ background-position: 0 -70px;
 .n64 .trigger.left{
     width: 52px;
     height: 88px;
-    background: url(n64-assets/buttons.svgz);
+    background: url(http://gamepadviewer.com/n64-assets/buttons.svgz);
     display: block;
     background-position-y: -72px;
 }
@@ -2327,7 +2327,7 @@ background-position: 0 -70px;
 }
 
 .n64 .dpad .face{
-    background: url(n64-assets/buttons.svgz);
+    background: url(http://gamepadviewer.com/n64-assets/buttons.svgz);
     height: 64px;
     width: 44px;
     background-position-y: -164px;
@@ -2359,7 +2359,7 @@ background-position: 0 -70px;
 
 /* We're using the node used for a controller's system button here */
 .n64 .meta{
-    background: url(n64-assets/buttons.svgz);
+    background: url(http://gamepadviewer.com/n64-assets/buttons.svgz);
     width: 55px;
     height: 55px;
     background-position-y: -282px;
@@ -2375,7 +2375,7 @@ background-position: 0 -70px;
 }
 
 .n64 .abxy .button{
-    background: url(n64-assets/buttons.svgz);
+    background: url(http://gamepadviewer.com/n64-assets/buttons.svgz);
     width: 47px;
     height: 47px;
     background-position-y: -231px;
@@ -2412,7 +2412,7 @@ background-position: 0 -70px;
 }
 
 .n64 .back, .n64 .start{
-    background: url(n64-assets/buttons.svgz);
+    background: url(http://gamepadviewer.com/n64-assets/buttons.svgz);
     width: 61px;
     height: 61px;
     background-position-y: -341px;
@@ -2433,7 +2433,7 @@ background-position: 0 -70px;
 }
 
 .n64 .stick.left{
-    background: url(n64-assets/buttons.svgz);
+    background: url(http://gamepadviewer.com/n64-assets/buttons.svgz);
     width: 73px;
     height: 73px;
     display: block;
