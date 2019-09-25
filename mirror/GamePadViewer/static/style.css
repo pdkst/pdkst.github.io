@@ -996,41 +996,41 @@ strong {
 
 /*BEGIN PS3 White Controller Styling*/
 .controller.ps.white {
-    background-image: url(ps3-http://gamepadviewer.com/white-assets/base.png);
+    background-image: url(http://gamepadviewer.com/ps3-white-assets/base.png);
 }
 
 .ps.white.disconnected {
-    background-image: url(ps3-http://gamepadviewer.com/white-assets/base-disconnect.png);
+    background-image: url(http://gamepadviewer.com/ps3-white-assets/base-disconnect.png);
 }
 
 
 .ps.white .trigger {
-    background-image: url(ps3-http://gamepadviewer.com/white-assets/triggers.png);
+    background-image: url(http://gamepadviewer.com/ps3-white-assets/triggers.png);
 }
 
 
 .ps.white .bumper {
-    background-image: url(ps3-http://gamepadviewer.com/white-assets/bumpers.png);
+    background-image: url(http://gamepadviewer.com/ps3-white-assets/bumpers.png);
 }
 
 .ps.white .quadrant {
-    background-image: url(ps3-http://gamepadviewer.com/white-assets/player-n.png);
+    background-image: url(http://gamepadviewer.com/ps3-white-assets/player-n.png);
 }
 
 .ps.white .back, .ps.white .start {
-    background-image: url(ps3-http://gamepadviewer.com/white-assets/menus.png);
+    background-image: url(http://gamepadviewer.com/ps3-white-assets/menus.png);
 }
 
 .ps.white .button {
-    background-image: url(ps3-http://gamepadviewer.com/white-assets/face-buttons.png);
+    background-image: url(http://gamepadviewer.com/ps3-white-assets/face-buttons.png);
 }
 
 .ps.white .stick {
-    background-image: url(ps3-http://gamepadviewer.com/white-assets/thumbs.png);
+    background-image: url(http://gamepadviewer.com/ps3-white-assets/thumbs.png);
 }
 
 .ps.white .face {
-    background-image: url(ps3-http://gamepadviewer.com/white-assets/dpad.png);
+    background-image: url(http://gamepadviewer.com/ps3-white-assets/dpad.png);
 }
 
 /*END PS3 White Controller Styling*/
@@ -1317,7 +1317,7 @@ background-position: 0 -70px;
 
 /*BEGIN PS4 White Controller Styling*/
 .controller.ds4.white {
-    background-image: url(ps4-http://gamepadviewer.com/white-assets/base.svgz);
+    background-image: url(http://gamepadviewer.com/ps4-white-assets/base.svgz);
 }
 
 .ds4.white.disconnected {
@@ -1325,31 +1325,31 @@ background-position: 0 -70px;
 }
 
 .ds4.white .trigger {
-    background-image: url(ps4-http://gamepadviewer.com/white-assets/triggers.svgz);
+    background-image: url(http://gamepadviewer.com/ps4-white-assets/triggers.svgz);
 }
 
 .ds4.white .bumper {
-    background-image: url(ps4-http://gamepadviewer.com/white-assets/bumper.svgz);
+    background-image: url(http://gamepadviewer.com/ps4-white-assets/bumper.svgz);
 }
 
 .ds4.white .touchpad.pressed {
-    background-image: url(ps4-http://gamepadviewer.com/white-assets/touchpad.svgz);
+    background-image: url(http://gamepadviewer.com/ps4-white-assets/touchpad.svgz);
 }
 
 .ds4.white .back, .ds4 .start {
-    background-image: url(ps4-http://gamepadviewer.com/white-assets/start.svgz);
+    background-image: url(http://gamepadviewer.com/ps4-white-assets/start.svgz);
 }
 
 .ds4.white .button {
-    background-image: url(ps4-http://gamepadviewer.com/white-assets/face.svgz);
+    background-image: url(http://gamepadviewer.com/ps4-white-assets/face.svgz);
 }
 
 .ds4.white .stick {
-    background-image: url(ps4-http://gamepadviewer.com/white-assets/sticks.svgz);
+    background-image: url(http://gamepadviewer.com/ps4-white-assets/sticks.svgz);
 }
 
 .ds4.white .face {
-    background-image: url(ps4-http://gamepadviewer.com/white-assets/dpad.svgz);
+    background-image: url(http://gamepadviewer.com/ps4-white-assets/dpad.svgz);
 }
 
 /*END PS4 White Controller Styling*/
