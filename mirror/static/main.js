@@ -411,14 +411,16 @@ var triggerStrength = getParameterByName('smeter');
 var disableCurving = getParameterByName('nocurve');
 var setOffset = getParameterByName('soffset');
 function bindingSettings(paramData) {
-    try {
-        var rebindParse = JSON.parse(paramData);
-        return rebindParse;
-    } catch (e) {
-        console.error("Unable to parse mapping object.");
-        console.log(e);
-        return "";
+    if (paramData) {
+        try {
+            var rebindParse = JSON.parse(paramData);
+            return rebindParse;
+        } catch (e) {
+            console.error("Unable to parse mapping object.");
+            console.log(e);
+        }
     }
+    return "";
 }
 var controllerRebinds = bindingSettings(getParameterByName('map'));
 
