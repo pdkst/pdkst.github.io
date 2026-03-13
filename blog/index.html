@@ -23,7 +23,41 @@
     }
     
     .sidebar {
-      background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+      background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%) !important;
+      display: block !important;
+    }
+    
+    /* 确保侧边栏可见 */
+    body {
+      display: block !important;
+    }
+    
+    .sidebar-nav {
+      padding: 0;
+      margin: 0;
+    }
+    
+    /* 确保侧边栏容器存在 */
+    #app {
+      display: flex;
+    }
+    
+    /* 内容区域样式 */
+    .content {
+      padding-top: 0;
+    }
+    
+    /* 确保侧边栏链接可见 */
+    .sidebar-nav li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .sidebar-nav a {
+      display: block;
+      padding: 8px 15px;
+      color: #333;
     }
     
     /* Logo 样式 */
@@ -120,6 +154,8 @@
       auto2top: true,
       coverpage: false,
       themeColor: '#3a7bd5',
+      maxLevel: 4,
+      sidebarDisplayLevel: 1,
       search: {
         maxAge: 86400000,
         paths: 'auto',
@@ -157,6 +193,13 @@
             const dateHtml = `> 最后更新时间: {docsify-updated}\n\n`;
             const divider = '\n---\n\n';
             return editHtml + dateHtml + divider + content;
+          });
+          hook.doneEach(function() {
+            // 确保侧边栏显示
+            const sidebar = document.querySelector('.sidebar');
+            if (sidebar) {
+              sidebar.style.display = 'block';
+            }
           });
         }
       ]
