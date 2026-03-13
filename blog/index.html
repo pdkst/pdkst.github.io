@@ -149,7 +149,7 @@
       name: 'pdkst 的博客',
       repo: 'pdkst/pdkst.github.io',
       homepage: 'README.md',
-      loadSidebar: true,
+      loadSidebar: '_sidebar.md',
       subMaxLevel: 2,
       auto2top: true,
       coverpage: false,
@@ -188,7 +188,7 @@
       plugins: [
         function(hook, vm) {
           hook.beforeEach(function(content) {
-            const url = `https://github.com/pdkst/pdkst.github.io/blob/main/blog/${vm.route.file}`;
+            const url = `https://github.com/pdkst/pdkst.github.io/blob/master/blog/${vm.route.file}`;
             const editHtml = `[📝 编辑文档](${url})\n\n`;
             const dateHtml = `> 最后更新时间: {docsify-updated}\n\n`;
             const divider = '\n---\n\n';
@@ -211,6 +211,7 @@
   
   <!-- 插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/updated.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-progress@1/dist/progress.min.js"></script>
