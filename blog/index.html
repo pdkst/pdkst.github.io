@@ -1,28 +1,185 @@
 <!DOCTYPE html>
-<html lang="zh">
-	<head>
-		<meta charset='utf-8'>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta http-equiv="Content-Language" content="zh">
-		<title>BLOG目录</title>
-		<meta name="description" content="withnoword的博客">
-		<link rel="icon" type="image/x-icon" href="favicon.ico" />
-		<link rel="stylesheet" type="text/css" href="static/css/blog.css" />
-		<style type="text/css">
-			html {
-				width: 100%;
-				height: 100% !important;
-				background-color: #159957;
-				background-image: linear-gradient(120deg, #155799, #159957);
-			}
-
-			.font24 {
-				color: #fff;
-			}
-		</style>
-	</head>
-
-	<body>
-		<div class="font24">这个页面在建设中</div>
-	</body>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>pdkst 的博客</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="pdkst 的技术博客 - 分享 Java、Android、Kotlin 等技术笔记">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- Docsify 样式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+  
+  <!-- 自定义样式 -->
+  <style>
+    :root {
+      --theme-color: #3a7bd5;
+      --theme-color-dark: #2d5a9f;
+    }
+    
+    /* 覆盖主题颜色 */
+    :root {
+      --sidebar-width: 280px;
+    }
+    
+    .sidebar {
+      background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+    }
+    
+    /* Logo 样式 */
+    .app-name-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .app-name-link::before {
+      content: '📝';
+      font-size: 1.2em;
+    }
+    
+    /* 代码块样式 */
+    pre {
+      border-radius: 8px;
+    }
+    
+    code {
+      background-color: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    
+    pre code {
+      background-color: transparent;
+      padding: 0;
+    }
+    
+    /* 图片样式 */
+    img {
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* 链接样式 */
+    a {
+      transition: all 0.2s ease;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    /* 分割线样式 */
+    hr {
+      border: none;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--theme-color), transparent);
+      margin: 2em 0;
+    }
+    
+    /* 表格样式 */
+    table {
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    
+    /* 引用块样式 */
+    blockquote {
+      border-left: 4px solid var(--theme-color);
+      background: linear-gradient(90deg, rgba(58, 123, 213, 0.1), transparent);
+    }
+    
+    /* 导航链接悬停效果 */
+    .sidebar-nav li > a:hover {
+      color: var(--theme-color);
+      text-decoration: none;
+    }
+    
+    /* 当前页面的导航项 */
+    .sidebar-nav li.active > a {
+      color: var(--theme-color);
+      font-weight: 600;
+    }
+    
+    /* 自定义回到顶部按钮 */
+    .scroll-to-top {
+      background: var(--theme-color);
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  
+  <script>
+    window.$docsify = {
+      name: 'pdkst 的博客',
+      repo: 'pdkst/pdkst.github.io',
+      homepage: 'README.md',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      coverpage: false,
+      themeColor: '#3a7bd5',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '没有找到结果',
+        depth: 3,
+      },
+      pagination: {
+        previousText: '上一页',
+        nextText: '下一页',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      copyCode: {
+        buttonText: '复制',
+        errorText: '错误',
+        successText: '复制成功',
+      },
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      },
+      progress: {
+        position: 'top',
+        color: 'var(--theme-color)',
+        height: '3px',
+      },
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function(content) {
+            const url = `https://github.com/pdkst/pdkst.github.io/blob/main/blog/${vm.route.file}`;
+            const editHtml = `[📝 编辑文档](${url})\n\n`;
+            const dateHtml = `> 最后更新时间: {docsify-updated}\n\n`;
+            const divider = '\n---\n\n';
+            return editHtml + dateHtml + divider + content;
+          });
+        }
+      ]
+    };
+  </script>
+  
+  <!-- Docsify 核心 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  
+  <!-- 插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-progress@1/dist/progress.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-countable@latest/dist/docsify-countable.min.js"></script>
+  
+  <!-- 代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-kotlin.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-groovy.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+</body>
 </html>
